@@ -16,9 +16,10 @@ questionArray=[`Please Enter a e-payment firmname co-founded by Elon Musk`,
 // forloop
 for(let i=noOfQuestions;i>=0;i--){
     userInputs.push(prompt(questionArray[questionCounter]+`(${noOfQuestions}question left)`));
+    
     questionCounter++;
   noOfQuestions--;
-  
+
 
 }
 alert('All done! Ready for your totally-accurate, not-at-all confusing history of tech??');
@@ -32,6 +33,7 @@ which makes electric ${userInputs[5]} and batteries
 and became its chief executive officer in ${userInputs[6]}.
 He purchased the social media service ${userInputs[7]}in 2022.`;
 console.log(originalStory);
+document.write(originalStory);
 document.getElementById("demo").innerHTML=originalStory;
 // Elon Musk cofounded the electronic payment firm PayPaland 
 // in 2002 he founded SpaceX, a company that makes rockets and spacecraft.
