@@ -1,30 +1,36 @@
 "use strict"
 let questionArray=[];
-let numberOfQuestions=7;
-let userInputs="";
+let noOfQuestions=7;
+let userInputs=[];
 let questionCounter=0;
-//  prompt("enter a firm name");
-//  prompt("enter a firm name");
-//  prompt("enter a firm name");
-//  prompt("enter a firm name");
-//  prompt("enter a firm name");
-//  prompt("enter a firm name");
-//  prompt("enter a firm name");
-for(let i=0;i<3;i++){
-    userInputs=prompt("hello");
-    let questionArray.push(userInputs);
+
+// promptname
+questionArray=[`Please Enter a e-payment firmname co-founded by Elon Musk`, 
+            `Please Enter a year when he started with rocket stuffs`,
+            `Please Enter the brandname of his rocket company`,
+            `Please Enter the productname his company produces`,
+            `Please Enter his electric-company brandname`,
+            `Please Enter the productname of his company`,
+            `Please Enter the year he becomes ceo of his company`,
+            `Please Enter a company name he brought recently`]      
+// forloop
+for(let i=noOfQuestions;i>=0;i--){
+    userInputs.push(prompt(questionArray[i]));
+    console.log(userInputs);
+    questionCounter++;
+    console.log(questionCounter);
+
 }
 
- console.log(questionArray);
- 
 
-let originalStory=`MR.Elon Musk cofounded the e-payment firm ${userInputs[0]}and 
-In ${userInputs[1]}___ he founded ${userInputs[2]}____,
- a company that makes rockets and ${userInputs[3]}_____.
-He was a major early funder of ${userInputs[4]}___,
-which makes electric ${userInputs[5]}____ and batteries 
-and became its chief executive officer in ${userInputs[6]}____.
-He purchased the social media service ${userInputs[7]}____in 2022.`;
+
+let originalStory=`MR.Elon Musk cofounded the e-payment firm ${userInputs[0]} and 
+In ${userInputs[1]} he founded ${userInputs[2]},
+ a company that makes rockets and ${userInputs[3]}.
+He was a major early funder of ${userInputs[4]},
+which makes electric ${userInputs[5]} and batteries 
+and became its chief executive officer in ${userInputs[6]}.
+He purchased the social media service ${userInputs[7]}in 2022.`;
 console.log(originalStory);
 // Elon Musk cofounded the electronic payment firm PayPaland 
 // in 2002 he founded SpaceX, a company that makes rockets and spacecraft.
