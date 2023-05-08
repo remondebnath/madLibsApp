@@ -1,8 +1,24 @@
 "use strict"
+let questionArray=[];
 let numberOfQuestions=7;
-let userInputs=[];
+let userInputs="";
+let questionCounter=0;
+//  prompt("enter a firm name");
+//  prompt("enter a firm name");
+//  prompt("enter a firm name");
+//  prompt("enter a firm name");
+//  prompt("enter a firm name");
+//  prompt("enter a firm name");
+//  prompt("enter a firm name");
+for(let i=0;i<3;i++){
+    userInputs=prompt("hello");
+    let questionArray.push(userInputs);
+}
 
-let originalStory=`MR.Elon Musk cofounded the e-payment firm ${userInputs[0]}____ and 
+ console.log(questionArray);
+ 
+
+let originalStory=`MR.Elon Musk cofounded the e-payment firm ${userInputs[0]}and 
 In ${userInputs[1]}___ he founded ${userInputs[2]}____,
  a company that makes rockets and ${userInputs[3]}_____.
 He was a major early funder of ${userInputs[4]}___,
