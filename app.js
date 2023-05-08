@@ -1,5 +1,17 @@
+"use strict"
 let userInputs=[];
 
-let originalStory=`Thornton Gombar lifted his gaze to the sky as a hovercraft zoomed over his home. Based on the rosy pink tints that adorned its exterior, Thornton surmised that the vehicle was a pleasure craft, likely filled with a small group of men and women engaging in gross debauchery as the self-driving vehicle propelled itself across the sky. The craft jerked and jolted in an arrhythmic manner as it flew to the heart of Homasoro City, where even more such activities awaited them. `;
+let originalStory=`Elon Musk cofounded the e-payment firm ${userInputs[0]}____ and 
+In ${userInputs[1]}___ he founded ${userInputs[2]}____,
+ a company that makes rockets and ${userInputs[3]}_____.
+He was a major early funder of ${userInputs[4]}___,
+which makes electric ${userInputs[5]}____ and batteries 
+and became its chief executive officer in ${userInputs[6]}____.
+He purchased the social media service ${userInputs[7]}____ in 2022.`;
 console.log(originalStory);
-
+// Elon Musk cofounded the electronic payment firm PayPaland 
+// in 2002 he founded SpaceX, a company that makes rockets and spacecraft.
+// He was a major early funder of Tesla,
+// which makes electric cars and batteries 
+// and became its chief executive officer in 2008.
+// He purchased the social media service Twitter in 2022.
