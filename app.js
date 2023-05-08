@@ -1,7 +1,7 @@
 "use strict"
 let userInputs=[];
 
-let originalStory=`Elon Musk cofounded the e-payment firm ${userInputs[0]}____ and 
+let originalStory=`MR.Elon Musk cofounded the e-payment firm ${userInputs[0]}____ and 
 In ${userInputs[1]}___ he founded ${userInputs[2]}____,
  a company that makes rockets and ${userInputs[3]}_____.
 He was a major early funder of ${userInputs[4]}___,
