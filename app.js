@@ -1,4 +1,5 @@
 "use strict"
+let numberOfQuestions=7;
 let userInputs=[];
 
 let originalStory=`MR.Elon Musk cofounded the e-payment firm ${userInputs[0]}____ and 
