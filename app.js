@@ -15,10 +15,10 @@ questionArray=[`Please Enter a e-payment firmname co-founded by Elon Musk`,
             `Please Enter a company name he brought recently`]      
 // forloop
 for(let i=noOfQuestions;i>=0;i--){
-    userInputs.push(prompt(questionArray[i]));
-    console.log(userInputs);
+    userInputs.push(prompt(questionArray[questionCounter]+`(${noOfQuestions}question left)`));
     questionCounter++;
-    console.log(questionCounter);
+  noOfQuestions--;
+  
 
 }
 
